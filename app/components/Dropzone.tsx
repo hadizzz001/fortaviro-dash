@@ -47,7 +47,7 @@ const ImageForm = ({defaultValue,HandleImagesChange}:IImageForm) => {
                                     setImages(immg) 
                                     
                                 }}
-                                    publicKey="3aacbea09f3e65fd2f1b"/>}
+                                    publicKey="6782379d8870c7a59fce"/>}
 
         </Box>
     )
