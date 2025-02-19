@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import Dropzone from '../components/Dropzone';
+import Upload from '../components/Upload';
 import dynamic from 'next/dynamic';
 import 'react-quill/dist/quill.snow.css'; 
 
@@ -263,7 +263,7 @@ function EditProductForm({ product, onCancel, onSave }) {
             "\n  .uploadcare--widget {\n    background:black;\n  }\n  "
         }}
       />
-      <Dropzone defaultValue={img} HandleImagesChange={handleImgChange} />
+   <Upload onImagesUpload={handleImgChange} />
 
       <div className="flex gap-2">
         <button type="submit" className="bg-green-500 text-white px-4 py-2">
